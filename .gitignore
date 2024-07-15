@@ -1,0 +1,8 @@
+# Ignore image folders anywhere
+images/
+
+# Ignore uploads folders anywhere
+uploads/
+
+# Ignore tcpdf-main folders anywhere
+TCPDF-main/
