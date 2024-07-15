@@ -19,7 +19,7 @@ function showAlert($message, $type = 'success') {
           </script>";
 }
 
-if (!isset($_SESSION['username']) || $_SESSION['job'] == 'Chef') {
+if (!isset($_SESSION['username']) || $_SESSION['job'] == 'Admin') {
     // Redirect to the login page or another page if not logged in as admin
     header("Location: chef.php");
     exit();
